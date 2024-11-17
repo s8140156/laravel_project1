@@ -25,7 +25,7 @@
     </div>
     <div class="field my-3">
         <label for="">內文</label>
-        <textarea name="content" id="" cols="30" rows="10" class="border border-gray-200 p-2">{{$article->content}}</textarea>
+        <textarea name="content" id="editor" cols="30" rows="10" class="border border-gray-200 p-2">{{ old('content', $article->content ?? '') }}</textarea>
     </div>
     <div class="actions">
         <button type="submit" class="px-3 py-1 rounded bg-gray-200 hover:bg-gray-300">更新文章</button>

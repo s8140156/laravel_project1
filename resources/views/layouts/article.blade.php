@@ -8,7 +8,7 @@
     {{-- 因為使用的laravel版本不同(教學使用ver.8 目前使用ver.11.21) 因使用的是vite所以by以下vite指令 --}}
     @vite('resources/css/app.css') {{--vite指令--}}
     {{--要依照vite指令 css才會正確導入 才有正確的css樣式--}}
-    <title>誰來幫幫我</title>
+    <title>CRUD</title>
 </head>
 <body>
     <main class="m-5">

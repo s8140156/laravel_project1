@@ -21,7 +21,7 @@
     </div>
     <div class="field my-3">
         <label for="">內文</label>
-        <textarea name="content" id="" cols="30" rows="10" class="border border-gray-200 p-2">{{old('content')}}</textarea>
+        <textarea name="content" id="editor" cols="30" rows="10" class="border border-gray-200 p-2">{{old('content')}}</textarea>
     </div>
     <div class="actions">
         <button type="submit" class="px-3 py-1 rounded bg-gray-200 hover:bg-gray-300">新增文章</button>
